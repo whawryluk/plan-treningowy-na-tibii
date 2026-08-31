@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Plan treningowy 4 dni - A1/A2/B1/B2</title>
+<style>
+  :root{--ink:#17191d;--muted:#626871;--paper:#fffdf9;--line:#d9dde3;--soft:#f4f6f8;--legs:#7d294c;--upper:#254f78;--gold:#8b6914;--rp:#7b2f2f;--drop:#5c3b8a;}
+  *{box-sizing:border-box}
+  body{margin:0;background:#eceff2;color:var(--ink);font:14px/1.35 Inter,Arial,sans-serif}
+  .page{max-width:1280px;margin:24px auto;background:var(--paper);box-shadow:0 7px 30px rgba(0,0,0,.10);padding:28px 30px;border-radius:12px}
+  .top{display:flex;justify-content:space-between;gap:20px;align-items:flex-end;border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:18px}
+  h1{margin:0;font-size:28px;line-height:1.05}.sub{color:var(--muted);margin-top:6px}.name{font-weight:700;white-space:nowrap}.name span{display:inline-block;min-width:220px;border-bottom:1px solid #777;height:18px}
+  h2{font-size:22px;margin:0}.section-title{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}.pill{font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:6px 9px;border-radius:999px;background:var(--soft)}
+  .legs h2{color:var(--legs)}.upper h2{color:var(--upper)}
+  .warm{background:#f5f2eb;border:1px solid #e5dfd2;padding:10px 12px;border-radius:8px;margin:0 0 12px}.warm strong{font-weight:800}
+  .schedule{display:grid;grid-template-columns:repeat(7,1fr);gap:7px;margin-top:12px}.day{border:1px solid var(--line);padding:10px 8px;border-radius:8px;text-align:center;background:#fff}.day b{display:block;font-size:11px;color:var(--muted);margin-bottom:5px}.day strong{font-size:15px}.rest{background:#f0f1f3;color:#777}
+  table{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;table-layout:fixed}
+  th{font-size:11px;line-height:1.15;text-transform:uppercase;letter-spacing:.045em;text-align:left;background:#eef1f4;color:#40454c;padding:8px 7px;border-bottom:1px solid var(--line)}
+  td{padding:7px;border-bottom:1px solid var(--line);vertical-align:middle}tr:last-child td{border-bottom:0}
+  .num{width:42px;text-align:center;font-weight:800}.thumbcol{width:112px}.exercise{width:245px}.pattern{width:185px}.warmcol{width:120px}.sets{width:180px}.tech{width:auto}
+  .thumbwrap{width:96px;height:76px;border-radius:7px;background:#f2f2f2;overflow:hidden;border:1px solid #e0e0e0;display:flex;align-items:center;justify-content:center}
+  .thumbwrap img{max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain;background:white}.thumbwrap img[src$=".gif"]{object-fit:contain}
+  .exname{font-weight:800}.en{font-size:11px;color:var(--muted);margin-top:2px}.tag{display:inline-block;font-size:11px;font-weight:700;border:1px solid #cdd3da;background:#f7f8fa;border-radius:999px;padding:4px 7px}
+  .sets b{font-size:13px}.tiny{font-size:11px;color:var(--muted)}
+  .badge{display:inline-block;font-size:10px;font-weight:900;border-radius:5px;padding:3px 5px;margin:1px 2px 1px 0}.gold{background:#f5e9bb;color:#604700}.rp{background:#f3d9d9;color:#722}.drop{background:#e8def4;color:#4c2670}.ss{background:#dcebdc;color:#285a2a}
+  .notes{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.note{border:1px solid var(--line);border-radius:8px;padding:10px;background:#fff}.note h3{font-size:13px;margin:0 0 5px}.note p{margin:0;font-size:12px;color:#3e434a}
+  .sources{font-size:11px;color:var(--muted);margin-top:16px;border-top:1px solid var(--line);padding-top:10px}.sources a{color:inherit}
+  .printbtn{position:fixed;right:20px;bottom:20px;border:0;background:#111;color:white;border-radius:999px;padding:12px 17px;font-weight:800;cursor:pointer;box-shadow:0 5px 18px rgba(0,0,0,.2)}
+  .legend{font-size:11px;color:var(--muted);margin:6px 0 12px}
+  @media(max-width:900px){body{background:#fff}.page{margin:0;padding:16px;border-radius:0;box-shadow:none}.top{display:block}.name{margin-top:14px}.schedule{grid-template-columns:repeat(4,1fr)}.table-scroll{overflow-x:auto}table{min-width:1030px}.printbtn{display:none}}
+  @media print{@page{size:A4 landscape;margin:8mm}body{background:white;font-size:9pt}.page{max-width:none;margin:0;padding:0;box-shadow:none;border-radius:0}.workout{page-break-before:always}.workout.first{page-break-before:auto}.printbtn{display:none}.thumbwrap{width:78px;height:60px}.thumbcol{width:90px}.exercise{width:190px}.pattern{width:145px}.warmcol{width:95px}.sets{width:145px}th,td{padding:4px 5px}.notes{gap:6px}.sources{font-size:8pt}tr{break-inside:avoid}.schedule{gap:4px}.day{padding:6px 4px}}
+</style>
+</head>
+<body>
+<button class="printbtn" onclick="window.print()">Drukuj / zapisz PDF</button>
+
+<div class="page">
+  <div class="top">
+    <div><h1>PLAN TRENINGOWY - 4 DNI</h1><div class="sub">A1 LEGS / B1 UPPER / A2 LEGS / B2 UPPER - bez cardio po treningu</div></div>
+    <div class="name">Imię i nazwisko: <span></span></div>
+  </div>
+  <div class="section-title"><h2>Harmonogram tygodnia</h2><span class="pill">powtarzaj przez 4 tygodnie</span></div>
+  <div class="schedule">
+    <div class="day"><b>PONIEDZIAŁEK</b><strong>A1 - LEGS</strong></div>
+    <div class="day"><b>WTOREK</b><strong>B1 - UPPER</strong></div>
+    <div class="day rest"><b>ŚRODA</b><strong>WOLNE</strong></div>
+    <div class="day"><b>CZWARTEK</b><strong>A2 - LEGS</strong></div>
+    <div class="day"><b>PIĄTEK</b><strong>B2 - UPPER</strong></div>
+    <div class="day rest"><b>SOBOTA</b><strong>WOLNE</strong></div>
+    <div class="day rest"><b>NIEDZIELA</b><strong>WOLNE</strong></div>
+  </div>
+  <div class="warm" style="margin-top:16px"><strong>Rozgrzewka przed każdym treningiem:</strong> 5-7 min lekkiego rozruszania + rozgrzewka dynamiczna (skłony, wymachy, krążenia). Długie cardio 20-35 min z oryginalnego harmonogramu zostało pominięte.</div>
+  <div class="notes">
+    <div class="note"><h3>ZŁOTA SERIA</h3><p>Serie poprzedzające ostatnią wykonuj z zapasem ok. 1-2 powtórzeń. Ostatnia seria - do momentu, w którym nie da się wykonać kolejnego poprawnego technicznie powtórzenia.</p></div>
+    <div class="note"><h3>REST-PAUSE</h3><p>Tylko w ostatniej serii wskazanego ćwiczenia: do upadku technicznego → 30 s przerwy → 3-5 powt. → 30 s → 2-3 powt.</p></div>
+    <div class="note"><h3>DROP SET</h3><p>Tylko w ostatniej serii wskazanego ćwiczenia: do upadku → od razu -20-30% ciężaru → dalsze powtórzenia do upadku; opcjonalnie kolejny zrzut.</p></div>
+  </div>
+  <p class="legend">Miniatury są poglądowe i pochodzą z publicznych bibliotek/stron ćwiczeń w sieci. GIF-y pokazują przebieg ruchu; kliknięcie miniatury otwiera źródło.</p>
+</div>
+
+<!-- A1 -->
+<div class="page workout first legs">
+  <div class="section-title"><h2>A1 - LEGS</h2><span class="pill">pośladki / tył uda / core</span></div>
+  <div class="warm"><strong>Aktywacja A1 + A2:</strong> wykonaj oba ćwiczenia bezpośrednio po sobie, następnie odpocznij.</div>
+  <div class="table-scroll"><table>
+    <thead><tr><th class="num">#</th><th class="thumbcol">Miniatura</th><th class="exercise">Ćwiczenie</th><th class="pattern">Wzorzec ruchu</th><th class="warmcol">Rozgrzewka</th><th class="sets">Serie robocze</th><th class="tech">Technika / uwagi</th></tr></thead>
+    <tbody>
+      <tr><td class="num">A1</td><td><a href="https://burnfit.io/en/library/bird-dog/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/04/%EB%B2%84%EB%93%9C%EB%8F%85.gif" alt="Bird Dog"></div></a></td><td><div class="exname">Bird Dog</div></td><td><span class="tag">antyrotacja / stabilizacja</span></td><td>-</td><td><b>2 x 12</b></td><td><span class="badge ss">SUPERSET A1+A2</span></td></tr>
+      <tr><td class="num">A2</td><td><a href="https://www.self.com/gallery/hip-abductor-exercises-work-side-butt" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://media.self.com/photos/5f6216900b0a3f12034ac3f3/master/w_1024%2Cc_limit/Hejira-glute-bridge-abduction-band.gif" alt="Glute bridge with abduction" title="Mini-band glute bridge with abduction — GIF"></div></a></td><td><div class="exname">Glute bridge with abduction</div><div class="en">mini band</div></td><td><span class="tag">wyprost biodra + odwodzenie</span></td><td>-</td><td><b>2 x 12</b></td><td><span class="badge ss">SUPERSET A1+A2</span></td></tr>
+      <tr><td class="num">1</td><td><a href="https://burnfit.io/en/library/hip-abduction-machine/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/HIP_ABD_MC.gif" alt="Seated hip abduction"></div></a></td><td><div class="exname">Lever seated hip abduction</div></td><td><span class="tag">odwodzenie biodra</span></td><td>1 seria</td><td><b>1 x 12-10</b><br><b>2 x 20-15</b></td><td><span class="badge gold">ZŁOTA SERIA</span></td></tr>
+      <tr><td class="num">2</td><td><a href="https://burnfit.io/en/library/barbell-hip-thrust/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/WEI_HIP_THRUST.gif" alt="Barbell hip thrust"></div></a></td><td><div class="exname">Barbell hip thrust</div></td><td><span class="tag">wyprost biodra</span></td><td>1-2 serie</td><td><b>1 x 8-6</b><br><b>2 x 12-10</b></td><td><span class="badge rp">REST-PAUSE</span> ostatnia seria</td></tr>
+      <tr><td class="num">3</td><td><a href="https://burnfit.io/en/library/cable-kickback/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/CABLE_DONK_KICK.gif" alt="Cable kickback"></div></a></td><td><div class="exname">Cable donkey diagonal kickback</div></td><td><span class="tag">wyprost + odwiedzenie biodra</span></td><td>1 seria</td><td><b>1 x 12-10</b><br><b>1 x 15-12</b></td><td>Kontrolowany tor po skosie</td></tr>
+      <tr><td class="num">4</td><td><a href="https://burnfit.io/en/library/dumbbell-bulgarian-split-squat/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/DB_BULSPLIT_SQT.gif" alt="Bulgarian split squat"></div></a></td><td><div class="exname">Dumbbell Bulgarian split squat</div></td><td><span class="tag">przysiad jednonóż / wykrok</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>1 x 15-12</b></td><td>-</td></tr>
+      <tr><td class="num">5</td><td><a href="https://burnfit.io/en/library/dumbbell-romanian-deadlift/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/DB_RM_DL.gif" alt="Dumbbell RDL"></div></a></td><td><div class="exname">Dumbbell RDL</div><div class="en">Romanian deadlift</div></td><td><span class="tag">hinge / zawias biodrowy</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>2 x 15-12</b></td><td>-</td></tr>
+      <tr><td class="num">6</td><td><a href="https://burnfit.io/en/library/back-extension/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/BACK_ET.gif" alt="Back extension"></div></a></td><td><div class="exname">Roman chair hip extension</div><div class="en">glute focus</div></td><td><span class="tag">hinge / wyprost biodra</span></td><td>-</td><td><b>2 x 15-12</b></td><td>Akcent pośladkowy</td></tr>
+      <tr><td class="num">7</td><td><a href="https://burnfit.io/en/library/cable-crunch/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/05/%EC%BC%80%EC%9D%B4%EB%B8%94-%ED%81%AC%EB%9F%B0%EC%B9%98.gif" alt="Cable crunch"></div></a></td><td><div class="exname">Cable crunch</div></td><td><span class="tag">zgięcie tułowia</span></td><td>1 seria</td><td><b>3 x 12-10</b></td><td>-</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<!-- A2 -->
+<div class="page workout legs">
+  <div class="section-title"><h2>A2 - LEGS</h2><span class="pill">pośladki / uda / core</span></div>
+  <div class="warm"><strong>Aktywacja A1 + A2:</strong> wykonaj oba ćwiczenia bezpośrednio po sobie, następnie odpocznij.</div>
+  <div class="table-scroll"><table>
+    <thead><tr><th class="num">#</th><th class="thumbcol">Miniatura</th><th class="exercise">Ćwiczenie</th><th class="pattern">Wzorzec ruchu</th><th class="warmcol">Rozgrzewka</th><th class="sets">Serie robocze</th><th class="tech">Technika / uwagi</th></tr></thead>
+    <tbody>
+      <tr><td class="num">A1</td><td><a href="https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bodyweight-Frog-Pump_600x600.png?v=1656405316" target="_blank"><div class="thumbwrap"><img src="https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Bodyweight-Frog-Pump_600x600.png?v=1656405316" alt="Frog pump"></div></a></td><td><div class="exname">Frog pump</div><div class="en">mini band</div></td><td><span class="tag">wyprost biodra</span></td><td>-</td><td><b>2 x 12</b></td><td><span class="badge ss">SUPERSET A1+A2</span></td></tr>
+      <tr><td class="num">A2</td><td><a href="https://burnfit.io/en/library/fire-hydrant/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/08/%ED%8C%8C%EC%9D%B4%EC%96%B4-%ED%95%98%EC%9D%B4%EB%93%9C%EB%9F%B0%ED%8A%B8-1.gif" alt="Bent knee side kick"></div></a></td><td><div class="exname">Bent knee back to side kick</div><div class="en">miniatura: zbliżony wzorzec Fire Hydrant</div></td><td><span class="tag">odwodzenie + wyprost biodra</span></td><td>-</td><td><b>2 x 12</b></td><td><span class="badge ss">SUPERSET A1+A2</span></td></tr>
+      <tr><td class="num">1</td><td><a href="https://www.self.com/story/dumbbell-hip-thrust-exercise" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://media.self.com/photos/6227cbe0a252d9c49d777962/master/w_1600%2Cc_limit/Jowan-hip-thrust-bench.gif" alt="Glute medius hip thrust with dumbbell" title="Dumbbell hip thrust — GIF"></div></a></td><td><div class="exname">Glute medius hip thrust with dumbbell</div></td><td><span class="tag">wyprost biodra</span></td><td>1 seria</td><td><b>1 x 12-10</b><br><b>2 x 20-15</b></td><td>Akcent pośladkowy</td></tr>
+      <tr><td class="num">2</td><td><a href="https://burnfit.io/en/library/dumbbell-sumo-squat/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/DB_SM_SQT.gif" alt="Dumbbell sumo squat"></div></a></td><td><div class="exname">Sumo squat with dumbbell</div></td><td><span class="tag">przysiad szeroki</span></td><td>1 seria</td><td><b>1 x 8-6</b><br><b>2 x 12-10</b></td><td><span class="badge drop">DROP SET</span> ostatnia seria</td></tr>
+      <tr><td class="num">3</td><td><a href="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/SL_GLUTE_BRDG.gif" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/SL_GLUTE_BRDG.gif" alt="Single leg glute bridge"></div></a></td><td><div class="exname">One-leg dumbbell hip thrust with pause</div></td><td><span class="tag">jednostronny wyprost biodra</span></td><td>1 seria</td><td><b>1 x 12-10</b><br><b>2 x 20-15</b></td><td>Pauza w górze</td></tr>
+      <tr><td class="num">4</td><td><a href="https://burnfit.io/en/library/leg-extension/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/LGE_EXT-1.gif" alt="Leg extension"></div></a></td><td><div class="exname">Lever leg extension</div></td><td><span class="tag">wyprost kolana</span></td><td>1 seria</td><td><b>1 x 15-12</b><br><b>1 x 20-15</b></td><td>-</td></tr>
+      <tr><td class="num">5</td><td><a href="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/BB_BOX_SQT.gif" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/BB_BOX_SQT.gif" alt="Barbell box squat"></div></a></td><td><div class="exname">Box barbell squat</div></td><td><span class="tag">przysiad / kolano + biodro</span></td><td>1 seria</td><td><b>1 x 8-6</b><br><b>2 x 12-10</b></td><td>-</td></tr>
+      <tr><td class="num">6</td><td><a href="https://burnfit.io/en/library/leg-curl/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/LEG_CURL.gif" alt="Lying leg curl"></div></a></td><td><div class="exname">Lever lying leg curl</div></td><td><span class="tag">zgięcie kolana</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>2 x 15-12</b></td><td>-</td></tr>
+      <tr><td class="num">7</td><td><a href="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/HANG_LEG_RAIGE-1.gif" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/HANG_LEG_RAIGE-1.gif" alt="Hanging leg raise"></div></a></td><td><div class="exname">Hanging leg raise</div></td><td><span class="tag">zgięcie biodra + brzuch</span></td><td>-</td><td><b>3 x MAX</b></td><td>Do maks. liczby poprawnych powtórzeń</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<!-- B1 -->
+<div class="page workout upper">
+  <div class="section-title"><h2>B1 - UPPER BODY</h2><span class="pill">plecy / barki / klatka / ramiona</span></div>
+  <div class="table-scroll"><table>
+    <thead><tr><th class="num">#</th><th class="thumbcol">Miniatura</th><th class="exercise">Ćwiczenie</th><th class="pattern">Wzorzec ruchu</th><th class="warmcol">Rozgrzewka</th><th class="sets">Serie robocze</th><th class="tech">Technika / uwagi</th></tr></thead>
+    <tbody>
+      <tr><td class="num">1</td><td><a href="https://burnfit.io/en/wp-content/uploads/sites/3/2026/02/LAT_WIDE_PULL.gif" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/02/LAT_WIDE_PULL.gif" alt="Lat pulldown"></div></a></td><td><div class="exname">Cable bar lateral pulldown</div></td><td><span class="tag">przyciąganie pionowe</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>2 x 12-10</b></td><td>-</td></tr>
+      <tr><td class="num">2</td><td><a href="https://burnfit.io/en/library/dumbbell-incline-row/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/INC_DB_ROW.gif" alt="Incline dumbbell row"></div></a></td><td><div class="exname">DB hammer-grip incline bench two-arm row</div></td><td><span class="tag">przyciąganie poziome</span></td><td>1 seria</td><td><b>1 x 8-6</b><br><b>2 x 12-10</b></td><td>Chwyt neutralny</td></tr>
+      <tr><td class="num">3</td><td><a href="https://burnfit.io/en/library/seated-dumbbell-shoulder-press/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/SEAT_DB_SHD_PRESS.gif" alt="Seated dumbbell press"></div></a></td><td><div class="exname">Dumbbell seated press</div></td><td><span class="tag">wyciskanie pionowe</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>1 x 12-10</b></td><td><span class="badge drop">DROP SET</span> ostatnia seria</td></tr>
+      <tr><td class="num">4</td><td><a href="https://burnfit.io/en/library/face-pull/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/FACE_PULL-1.gif" alt="Face pull"></div></a></td><td><div class="exname">Face pull</div></td><td><span class="tag">przyciąganie + rotacja zewnętrzna</span></td><td>1 seria</td><td><b>3 x 12-10</b></td><td>-</td></tr>
+      <tr><td class="num">5</td><td><a href="https://burnfit.io/en/library/push-up/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/PUSH_UP.gif" alt="Push-up"></div></a></td><td><div class="exname">Push-up</div></td><td><span class="tag">wyciskanie poziome</span></td><td>-</td><td><b>3 x MAX</b></td><td>45 s przerwy między seriami</td></tr>
+      <tr><td class="num">6</td><td><a href="https://burnfit.io/en/library/dumbbell-hammer-curl/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/DB_HAM_CURL-1.gif" alt="Hammer curl"></div></a></td><td><div class="exname">Dumbbell hammer curl</div></td><td><span class="tag">zgięcie łokcia</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>2 x 15-12</b></td><td><span class="badge ss">SUPERSET 6+7</span></td></tr>
+      <tr><td class="num">7</td><td><a href="https://burnfit.io/en/library/cable-push-down/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/CABLE_PUSH_DOWN.gif" alt="Cable rope pushdown"></div></a></td><td><div class="exname">Cable rope pushdown</div></td><td><span class="tag">wyprost łokcia</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>2 x 15-12</b></td><td><span class="badge ss">SUPERSET 6+7</span></td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<!-- B2 -->
+<div class="page workout upper">
+  <div class="section-title"><h2>B2 - UPPER BODY</h2><span class="pill">plecy / barki / klatka / ramiona</span></div>
+  <div class="table-scroll"><table>
+    <thead><tr><th class="num">#</th><th class="thumbcol">Miniatura</th><th class="exercise">Ćwiczenie</th><th class="pattern">Wzorzec ruchu</th><th class="warmcol">Rozgrzewka</th><th class="sets">Serie robocze</th><th class="tech">Technika / uwagi</th></tr></thead>
+    <tbody>
+      <tr><td class="num">1</td><td><a href="https://burnfit.io/en/wp-content/uploads/sites/3/2026/07/%EB%B0%94%EB%B2%A8-%EB%A1%9C%EC%9A%B0.gif" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/07/%EB%B0%94%EB%B2%A8-%EB%A1%9C%EC%9A%B0.gif" alt="Bent-over barbell row"></div></a></td><td><div class="exname">Bent-over barbell row</div></td><td><span class="tag">przyciąganie poziome + hinge</span></td><td>1 seria</td><td><b>1 x 8-6</b><br><b>2 x 12-10</b></td><td>-</td></tr>
+      <tr><td class="num">2</td><td><a href="https://burnfit.io/en/library/high-row-machine/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/HIGH_ROW_MC.gif" alt="Hammer row neutral grip"></div></a></td><td><div class="exname">Hammer row - neutral grip</div></td><td><span class="tag">przyciąganie poziome</span></td><td>1 seria</td><td><b>1 x 15-12</b><br><b>2 x 10-8</b></td><td>Chwyt neutralny</td></tr>
+      <tr><td class="num">3</td><td><a href="https://burnfit.io/en/library/dumbbell-lateral-raise/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/DB_LAT_RAISE-1.gif" alt="Dumbbell lateral raise"></div></a></td><td><div class="exname">Dumbbell lateral raise</div></td><td><span class="tag">odwodzenie ramienia</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>2 x 15-12</b></td><td>-</td></tr>
+      <tr><td class="num">4</td><td><a href="https://burnfit.io/en/library/cable-front-raise/" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/CABLE_FRONT_RAISE.gif" alt="Cable front raise"></div></a></td><td><div class="exname">Cable front raise</div></td><td><span class="tag">zgięcie ramienia</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>1 x 15-12</b></td><td><span class="badge rp">REST-PAUSE</span> ostatnia seria</td></tr>
+      <tr><td class="num">5</td><td><a href="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/HAMMER_BP.gif" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/HAMMER_BP.gif" alt="Hammer chest press"></div></a></td><td><div class="exname">Hammer chest press</div></td><td><span class="tag">wyciskanie poziome</span></td><td>1 seria</td><td><b>3 x 10-8</b></td><td>-</td></tr>
+      <tr><td class="num">6</td><td><a href="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/PREA_CURL_MAC.gif" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/PREA_CURL_MAC.gif" alt="Preacher curl"></div></a></td><td><div class="exname">Preacher curl</div></td><td><span class="tag">zgięcie łokcia</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>2 x 15-12</b></td><td><span class="badge ss">SUPERSET 6+7</span></td></tr>
+      <tr><td class="num">7</td><td><a href="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/DB_TRI_EXT.gif" target="_blank"><div class="thumbwrap"><img referrerpolicy="no-referrer" src="https://burnfit.io/en/wp-content/uploads/sites/3/2026/01/DB_TRI_EXT.gif" alt="Dumbbell French press"></div></a></td><td><div class="exname">Dumbbell French press</div><div class="en">overhead triceps extension</div></td><td><span class="tag">wyprost łokcia nad głową</span></td><td>1 seria</td><td><b>1 x 10-8</b><br><b>2 x 15-12</b></td><td><span class="badge ss">SUPERSET 6+7</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="sources">
+    <strong>Źródła miniaturek:</strong> przede wszystkim BurnFit Exercise Library (burnfit.io); Glute bridge with abduction - SELF; Dumbbell hip thrust - SELF; Frog pump - SimplyFitness. Miniatury są tylko pomocą wizualną do rozpoznania ćwiczenia i wzorca ruchu. Plan serii/powtórzeń pochodzi z tekstu przekazanego przez użytkownika.
+  </div>
+</div>
+</body>
+</html>
